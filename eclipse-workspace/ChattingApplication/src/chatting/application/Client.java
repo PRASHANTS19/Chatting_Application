@@ -30,7 +30,8 @@ public class Client extends JFrame implements ActionListener{
 		p1.setBounds(0,0,450,70);
 		add(p1);
 		
-		ImageIcon i1 = new ImageIcon("C:\\Users\\sahup\\eclipse-workspace\\ChattingApplication\\src\\chatting\\application\\icons\\3.png");
+		//"C:\\Users\\sahup\\eclipse-workspace\\ChattingApplication\\src\\chatting\\application\\icons\\3.png"
+		ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("chatting/application/icons/3.png"));
 		Image i2 = i1.getImage().getScaledInstance(30, 30,Image.SCALE_DEFAULT);
 		ImageIcon i3 = new ImageIcon(i2);
 		JLabel l1 = new JLabel(i3);
@@ -43,29 +44,32 @@ public class Client extends JFrame implements ActionListener{
 			}
 		});
 		
-		ImageIcon i4 = new ImageIcon("C:\\Users\\sahup\\eclipse-workspace\\ChattingApplication\\src\\chatting\\application\\icons\\112.png");
+		//"C:\\Users\\sahup\\eclipse-workspace\\ChattingApplication\\src\\chatting\\application\\icons\\112.png"
+		ImageIcon i4 = new ImageIcon(ClassLoader.getSystemResource("chatting/application/icons/112.png"));
 		Image i5 = i4.getImage().getScaledInstance(60, 60,Image.SCALE_DEFAULT);
 		ImageIcon i6 = new ImageIcon(i5);
 		JLabel l2 = new JLabel(i6);
 		l2.setBounds(40,5,60,60);  
 		p1.add(l2);  //helps to add the image over the panel.
 		
-		 
-		ImageIcon i7 = new ImageIcon("C:\\Users\\sahup\\eclipse-workspace\\ChattingApplication\\src\\chatting\\application\\icons\\video.png");
+		//"C:\\Users\\sahup\\eclipse-workspace\\ChattingApplication\\src\\chatting\\application\\icons\\video.png"
+		ImageIcon i7 = new ImageIcon(ClassLoader.getSystemResource("chatting/application/icons/video.png"));
 		Image i8 = i7.getImage().getScaledInstance(40, 40,Image.SCALE_DEFAULT);
 		ImageIcon i9 = new ImageIcon(i8);
 		JLabel l5 = new JLabel(i9);
 		l5.setBounds(300,15,40,40);  
 		p1.add(l5);  //helps to add the image over the panel.
 		
-		ImageIcon i10 = new ImageIcon("C:\\Users\\sahup\\eclipse-workspace\\ChattingApplication\\src\\chatting\\application\\icons\\phone.png");
+		//"C:\\Users\\sahup\\eclipse-workspace\\ChattingApplication\\src\\chatting\\application\\icons\\phone.png"
+		ImageIcon i10 = new ImageIcon(ClassLoader.getSystemResource("chatting/application/icons/phone.png"));
 		Image i11 = i10.getImage().getScaledInstance(40, 40,Image.SCALE_DEFAULT);
 		ImageIcon i12 = new ImageIcon(i11);
 		JLabel l6 = new JLabel(i12);
 		l6.setBounds(350,15,40,40);  
 		p1.add(l6);  //helps to add the image over the panel.
 		
-		ImageIcon i13 = new ImageIcon("C:\\Users\\sahup\\eclipse-workspace\\ChattingApplication\\src\\chatting\\application\\icons\\3icon.png");
+		//"C:\\Users\\sahup\\eclipse-workspace\\ChattingApplication\\src\\chatting\\application\\icons\\3icon.png"
+		ImageIcon i13 =new ImageIcon(ClassLoader.getSystemResource("chatting/application/icons/3icon.png"));
 		Image i14 = i13.getImage().getScaledInstance(13, 25,Image.SCALE_DEFAULT);
 		ImageIcon i15 = new ImageIcon(i14);
 		JLabel l7 = new JLabel(i15);
